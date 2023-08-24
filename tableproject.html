@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TABLE PROJECT</title>
+        <meta charset="UTF-8">
+        <style>
+            table ,td, th {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 8px;
+                line-height: 1.5;
+            }
+            table{
+                width: 750px;
+                text-align: left;
+                background-color: white;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .label{
+                font-weight: 550;
+            }
+            th{
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body style="background-color: aliceblue;">
+          <table>
+            <tr>
+                <th colspan="3">Invoice #1234amamzon</th>
+                <th>31th july 2023</th>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <span class="label">PAY TO:</span><br>
+                    Shakambhar colony<br>
+                    Near aara machine<br>
+                    Phulera,raj,303338
+                </td>
+                <td colspan="2">
+                    <span class="label">CUSTOMER:</span><br>
+                    Harshit Sharma<br>
+                    Tagore Nagar<br>
+                    Vaishali street,101 tower<br>
+                    Phulera,raj,303338
+                </td>               
+            </tr>
+
+            <tr>
+                <th>Name/description</th>
+                <th>Quantity</th>
+                <th>MRP</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Biryani</td>
+                <td>3</td>
+                <td>400</td>
+                <td>1200</td>
+            </tr>
+            <tr>
+                <td>Chocolate Shake</td>
+                <td>3</td>
+                <td>200</td>
+                <td>600</td>
+            </tr>
+            <tr >
+                <th colspan="3">Subtotal:</th>
+                <td>1800</td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    TAX
+                </th>
+                <td>10%</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <th colspan="3">Grand-total:</th>
+                <td>RS. 1620</td>
+            </tr>
+          </table>
+    </body>
+</html>
